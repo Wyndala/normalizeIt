@@ -8,10 +8,9 @@
 
 namespace Wyndala\Tests\Services;
 
-use PHPUnit\Framework\TestCase;
 use Wyndala\NormalizeIt\Provider\BooleanNormalizeProvider;
 
-class BooleanNormalizeProviderTest extends TestCase
+class BooleanNormalizeProviderTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @dataProvider booleanDataProvider
